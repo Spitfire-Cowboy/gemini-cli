@@ -17,7 +17,7 @@ import {
   PREVIEW_GEMINI_FLASH_MODEL,
   supportsModernFeatures,
 } from '../config/models.js';
-import { z } from 'zod';
+import { z } from 'zod/v3';
 import type { Config } from '../config/config.js';
 import { ThinkingLevel } from '@google/genai';
 

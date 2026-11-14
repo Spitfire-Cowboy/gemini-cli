@@ -12,7 +12,7 @@ import {
   formatValidationError,
   settingsZodSchema,
 } from './settings-validation.js';
-import { z } from 'zod';
+import { z } from 'zod/v3';
 import { type Settings } from './settingsSchema.js';
 
 describe('settings-validation', () => {

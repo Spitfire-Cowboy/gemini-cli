@@ -12,7 +12,7 @@ import type {
   TranscriptionEvents,
 } from './transcriptionProvider.js';
 
-import { z } from 'zod';
+import { z } from 'zod/v3';
 
 const LiveAPIResponseSchema = z.object({
   setupComplete: z.record(z.unknown()).optional(),

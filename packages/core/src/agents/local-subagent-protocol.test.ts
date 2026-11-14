@@ -17,7 +17,7 @@ import { createMockMessageBus } from '../test-utils/mock-message-bus.js';
 import type { AgentLoopContext } from '../config/agent-loop-context.js';
 import type { AgentEvent } from '../agent/types.js';
 import type { MessageBus } from '../confirmation-bus/message-bus.js';
-import type { z } from 'zod';
+import type { z } from 'zod/v3';
 import type { Mocked } from 'vitest';
 
 vi.mock('./local-executor.js');

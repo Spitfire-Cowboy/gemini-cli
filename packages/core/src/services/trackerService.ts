@@ -14,7 +14,7 @@ import {
   TaskStatus,
   type TrackerTask,
 } from './trackerTypes.js';
-import { type z } from 'zod';
+import { type z } from 'zod/v3';
 
 export class TrackerService {
   private readonly tasksDir: string;

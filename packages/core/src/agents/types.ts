@@ -10,7 +10,7 @@
 
 import type { Content, FunctionDeclaration } from '@google/genai';
 import type { AnyDeclarativeTool } from '../tools/tools.js';
-import { type z } from 'zod';
+import { type z } from 'zod/v3';
 import type { ModelConfig } from '../services/modelConfigService.js';
 import type { AnySchema } from 'ajv';
 import type { AgentCard } from '@a2a-js/sdk';

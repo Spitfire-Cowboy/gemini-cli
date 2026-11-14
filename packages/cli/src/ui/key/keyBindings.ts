@@ -5,7 +5,7 @@
  */
 
 import * as fs from 'node:fs/promises';
-import { z } from 'zod';
+import { z } from 'zod/v3';
 import { parse as parseIgnoringComments } from 'comment-json';
 import { isNodeError, Storage } from '@google/gemini-cli-core';
 

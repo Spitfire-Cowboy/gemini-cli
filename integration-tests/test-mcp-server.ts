@@ -11,7 +11,7 @@ import {
 import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js';
 import express from 'express';
 import { type Server as HTTPServer } from 'node:http';
-import { type ZodRawShape } from 'zod';
+import { type ZodRawShape } from 'zod/v3';
 
 export class TestMcpServer {
   private server: HTTPServer | undefined;

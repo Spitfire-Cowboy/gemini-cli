@@ -28,7 +28,7 @@ import { LocalAgentExecutor } from './local-executor.js';
 import { makeFakeConfig } from '../test-utils/config.js';
 import type { Config } from '../config/config.js';
 import type { MessageBus } from '../confirmation-bus/message-bus.js';
-import { type z } from 'zod';
+import { type z } from 'zod/v3';
 import { createMockMessageBus } from '../test-utils/mock-message-bus.js';
 
 vi.mock('./local-executor.js');

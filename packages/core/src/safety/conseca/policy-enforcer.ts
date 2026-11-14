@@ -39,7 +39,7 @@ Evaluate the tool call against the policy.
 Output strictly JSON.
 `;
 
-import { z } from 'zod';
+import { z } from 'zod/v3';
 import { zodToJsonSchema } from 'zod-to-json-schema';
 
 const EnforcementResultSchema = z.object({
