@@ -65,7 +65,7 @@ import { DEFAULT_GEMINI_MODEL, isAutoModel } from '../config/models.js';
 import type { RoutingContext } from '../routing/routingStrategy.js';
 import { LRUCache } from 'mnemonist';
 import { parseThought } from '../utils/thoughtUtils.js';
-import { type z } from 'zod';
+import { type z } from 'zod/v3';
 import { debugLogger } from '../utils/debugLogger.js';
 import { getModelConfigAlias } from './registry.js';
 import { getVersion } from '../utils/version.js';

@@ -11,7 +11,7 @@
 
 import { type FunctionDeclaration } from '@google/genai';
 import * as os from 'node:os';
-import { z } from 'zod';
+import { z } from 'zod/v3';
 import { zodToJsonSchema } from 'zod-to-json-schema';
 import {
   SHELL_TOOL_NAME,

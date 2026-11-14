@@ -84,7 +84,7 @@ import type { SandboxManager } from '../services/sandboxManager.js';
 import type { MessageBus } from '../confirmation-bus/message-bus.js';
 import { MockTool } from '../test-utils/mock-tool.js';
 import { getDirectoryContextString } from '../utils/environmentContext.js';
-import { z } from 'zod';
+import { z } from 'zod/v3';
 import { getErrorMessage } from '../utils/errors.js';
 import { promptIdContext } from '../utils/promptIdContext.js';
 import {

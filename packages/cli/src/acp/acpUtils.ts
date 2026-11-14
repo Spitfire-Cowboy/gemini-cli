@@ -25,7 +25,7 @@ import {
   getAutoModelDescription,
 } from '@google/gemini-cli-core';
 import type * as acp from '@agentclientprotocol/sdk';
-import { z } from 'zod';
+import { z } from 'zod/v3';
 import type { LoadedSettings } from '../config/settings.js';
 
 export function hasMeta(

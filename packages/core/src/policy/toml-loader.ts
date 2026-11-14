@@ -22,7 +22,7 @@ import levenshtein from 'fast-levenshtein';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import toml from '@iarna/toml';
-import { z, type ZodError } from 'zod';
+import { z, type ZodError } from 'zod/v3';
 import { isNodeError } from '../utils/errors.js';
 import { MCP_TOOL_PREFIX, formatMcpToolName } from '../tools/mcp-tool.js';
 

@@ -9,7 +9,7 @@ import * as fs from 'node:fs';
 import * as path from 'node:path';
 import * as os from 'node:os';
 import { lock } from 'proper-lockfile';
-import { z } from 'zod';
+import { z } from 'zod/v3';
 import { debugLogger } from '../utils/debugLogger.js';
 import { isNodeError } from '../utils/errors.js';
 

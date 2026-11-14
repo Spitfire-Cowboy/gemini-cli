@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { z } from 'zod';
+import { z } from 'zod/v3';
 
 export enum TaskType {
   EPIC = 'epic',

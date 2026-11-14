@@ -54,7 +54,7 @@ import {
   buildAvailableModes,
   RequestPermissionResponseSchema,
 } from './acpUtils.js';
-import { z } from 'zod';
+import { z } from 'zod/v3';
 import { getAcpErrorMessage } from './acpErrors.js';
 
 const StructuredErrorSchema = z.object({

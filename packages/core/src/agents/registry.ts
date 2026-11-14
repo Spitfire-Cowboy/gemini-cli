@@ -22,7 +22,7 @@ import { BrowserAgentDefinition } from './browser/browserAgentDefinition.js';
 import { AgentTool } from './agent-tool.js';
 import { A2AAuthProviderFactory } from './auth-provider/factory.js';
 import type { AuthenticationHandler } from '@a2a-js/sdk/client';
-import { type z } from 'zod';
+import { type z } from 'zod/v3';
 import { debugLogger } from '../utils/debugLogger.js';
 import { isAutoModel } from '../config/models.js';
 import {

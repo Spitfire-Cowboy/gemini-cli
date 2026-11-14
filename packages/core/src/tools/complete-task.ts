@@ -17,7 +17,7 @@ import {
   COMPLETE_TASK_DISPLAY_NAME,
 } from './definitions/base-declarations.js';
 import { type OutputConfig } from '../agents/types.js';
-import { type z } from 'zod';
+import { type z } from 'zod/v3';
 import { type MessageBus } from '../confirmation-bus/message-bus.js';
 import { zodToJsonSchema } from 'zod-to-json-schema';
 

@@ -7,7 +7,7 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { CompleteTaskTool } from './complete-task.js';
 import { type MessageBus } from '../confirmation-bus/message-bus.js';
-import { z } from 'zod';
+import { z } from 'zod/v3';
 
 describe('CompleteTaskTool', () => {
   let mockMessageBus: MessageBus;

@@ -26,7 +26,7 @@ import {
   SubagentState,
 } from './types.js';
 import { randomUUID } from 'node:crypto';
-import type { z } from 'zod';
+import type { z } from 'zod/v3';
 import type { MessageBus } from '../confirmation-bus/message-bus.js';
 import {
   sanitizeThoughtContent,

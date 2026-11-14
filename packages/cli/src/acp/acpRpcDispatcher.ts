@@ -11,7 +11,7 @@ import {
   getVersion,
 } from '@google/gemini-cli-core';
 import * as acp from '@agentclientprotocol/sdk';
-import { z } from 'zod';
+import { z } from 'zod/v3';
 import { SettingScope, type LoadedSettings } from '../config/settings.js';
 import type { CliArgs } from '../config/config.js';
 import { getAcpErrorMessage } from './acpErrors.js';

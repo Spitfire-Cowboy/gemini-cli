@@ -8,7 +8,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { coreEvents, type GeminiCLIExtension } from '@google/gemini-cli-core';
 import { ExtensionStorage } from './storage.js';
-import { z } from 'zod';
+import { z } from 'zod/v3';
 
 export interface ExtensionEnablementConfig {
   overrides: string[];

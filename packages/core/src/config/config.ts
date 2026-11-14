@@ -9,7 +9,7 @@ import * as path from 'node:path';
 import { SandboxPolicyManager } from '../policy/sandboxPolicyManager.js';
 import { inspect } from 'node:util';
 import process from 'node:process';
-import { z } from 'zod';
+import { z } from 'zod/v3';
 import type { ConversationRecord } from '../services/chatRecordingService.js';
 import type {
   AgentHistoryProviderConfig,
