@@ -57,10 +57,11 @@ For detailed configuration information, see the
 ### HTTP span attribute migration
 
 Gemini CLI uses `@opentelemetry/instrumentation-http` 0.222.0, which emits the
-stable HTTP semantic conventions. Dashboards, alerts, and queries must use
-`http.response.status_code` instead of the legacy `http.status_code` span
-attribute. For example, replace a filter such as `http.status_code >= 500` with
-`http.response.status_code >= 500`.
+stable HTTP semantic conventions. New spans use `http.response.status_code`
+instead of the legacy `http.status_code` span attribute. During a mixed-version
+transition, use a filter such as
+`http.status_code >= 500 OR http.response.status_code >= 500` so dashboards and
+alerts continue to match spans from both old and new Gemini CLI versions.
 
 `OTEL_SEMCONV_STABILITY_OPT_IN` does not restore the legacy attribute or enable
 dual emission in this version. The migration is therefore a consumer-side query
